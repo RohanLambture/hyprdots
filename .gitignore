@@ -1,0 +1,12 @@
+/*               # ignore all files/folders…
+!.gitignore      # …except this .gitignore itself
+!/hypr/          # Hyprland
+!/waybar/        # Waybar
+!/wlogout/       # wlogout screen
+!/kitty/         # Kitty terminal
+!/rofi/          # Rofi launcher
+!/dunst/         # Dunst notifications
+!/nvim/          # Neovim
+!/tofi/          # Tofi launcher
+!/btop/          # btop monitor
+!/fastfetch/     # fastfetch banner
