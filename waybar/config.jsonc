@@ -307,7 +307,7 @@
 
   // ──────────────────────────────────────────────────────────┤ bluetooth ├───
 
-  "bluetooth": {
+    "exec": "~/.config/waybar/scripts/bluetooth-status.sh",
     "format": "󰂰",
     "format-disabled": "󰂲",
     "format-connected": "󰂱",

@@ -1,5 +1,6 @@
 /*               # ignore all files/folders…
 !.gitignore      # …except this .gitignore itself
+!README.md       # README file with prerequisites
 !/hypr/          # Hyprland
 !/waybar/        # Waybar
 !/wlogout/       # wlogout screen
