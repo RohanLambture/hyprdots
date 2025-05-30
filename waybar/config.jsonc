@@ -83,14 +83,19 @@
   // ─────────────────────────────────────────────────────────┤ workspaces ├───
 
   "hyprland/workspaces": {
-    "enable-bar-scroll": true,
-    "persistent-workspaces": {
-      "1": [],
-      "2": [],
-      "3": [],
-      "4": [],
-      "5": []
-    }
+    // "enable-bar-scroll": true,
+    // "persistent-workspaces": {
+    //   "1": [],
+    //   "2": [],
+    //   "3": [],
+    //   "4": [],
+    //   "5": []
+    // }
+    "format":"{id}",
+    "enable-bar-scroll":true,
+    "on-scroll-up": "hyprctl dispatch workspace -1",
+    "on-scroll-down": "hyprctl dispatch workspace +1",
+    "hide-empty":true
   },
 
   // ─────────────────────────────────────────────────────────────┤ window ├───

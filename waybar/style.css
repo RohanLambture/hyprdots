@@ -100,11 +100,11 @@ tooltip label {
   padding-left: 2px;
 }
 
-#workspaces {
+#hyprland-workspaces {
   background: @workspaces;
 }
 
-#workspaces button {
+#hyprland-workspaces button {
   color: @module-fg;
   border-radius: 8px;
   box-shadow: none;
@@ -113,13 +113,13 @@ tooltip label {
   transition: none;
 }
 
-#workspaces button:hover {
+#hyprland-workspaces button:hover {
   color: @hover-fg;
   background: @hover-bg;
   text-shadow: none;
 }
 
-#workspaces button.focused {
+#hyprland-workspaces button.active {
   color: @active-fg;
   background: @active-bg;
   text-shadow: 0 0 2px rgba(0, 0, 0, 0.6);
