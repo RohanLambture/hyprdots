@@ -43,10 +43,6 @@
 @define-color main-bg         @crust;
 @define-color main-br         @text;
 
-/* Night Light Colors */
-@define-color night-light #8aadf4;           /* Blue background */
-@define-color night-light-active #eed49f;    /* Active state (yellow) */
-@define-color night-light-inactive #cad3f5;  /* Inactive state (light blue) */
 
 /* @define-color active-bg       @overlay2; */
 /* @define-color active-fg       @crust; */

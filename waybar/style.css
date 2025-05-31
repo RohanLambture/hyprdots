@@ -137,6 +137,31 @@ tooltip label {
   margin-bottom: 0;
 }
 
+/* ─────────────────────────────────────────────────────────┤ night light ├───
+*/
+#custom-left2b {
+  color: @temperature;
+  background: @temperature;
+  padding-left: 3px;
+}
+
+#custom-night-light {
+  background: @temperature;
+  padding: 0 0 0 1px;
+}
+
+#custom-night-light.active {
+  color: @yellow;  /* Active state - warm yellow color */
+}
+
+#custom-night-light.inactive {
+  color: @module-fg;  /* Inactive state - normal text color */
+}
+
+#custom-night-light:hover {
+  color: @hover-fg;
+}
+
 /* ──────────────────────────────────────────────────────────┤ temperature ├───
 */
 #custom-paddc {
