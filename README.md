@@ -42,3 +42,7 @@ pacman -S bluez-utils brightnessctl pipewire pipewire-pulse ttf-jetbrains-mono-n
 ```bash
 yay -S bluetui rofi-lbonn-wayland-git
 ```
+
+```bash
+sudo pacman -S wlsunset
+```
